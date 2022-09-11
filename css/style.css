@@ -540,6 +540,7 @@ header.sticky{
 		margin: 1.5rem;
 		border-bottom: 2px solid rgb(196, 187, 176);
 		color: var(--bg-color);
+		width: 250px;
 	}
 	.navlist a:hover{
 		background: var(--bg-color);
