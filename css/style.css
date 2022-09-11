@@ -494,6 +494,10 @@ header.sticky{
 		--p-font: 1rem;
 		transition: .3s;
 	}
+	.about-img
+	{
+		margin-right: 6rem;
+	}
 }
 
 @media (max-width: 970px){
@@ -503,13 +507,17 @@ header.sticky{
 	.home{
 		min-height: 80vh;
 	}
-	.home-img img
+	.home-imge img
 	{
 		margin-left: -2rem;
 		max-width: 100%;
 		width: 500px;
 		height: auto;
 		margin-top: 2rem;
+	}
+	.home-text
+	{
+		margin-top: 4rem;
 	}
 	.about-img
 	{
@@ -522,14 +530,15 @@ header.sticky{
 		right: 0;
 		flex-direction: column;
 		background: var(--main-color);
-		text-align: right;
+		text-align: left;
 		transition: all .40s;
+		opacity: 93%;
 	}
 	.navlist a{
 		display: block;
 		padding: 1.2rem;
 		margin: 1.5rem;
-		border-right: 2px solid var(--bg-color);
+		border-bottom: 2px solid rgb(196, 187, 176);
 		color: var(--bg-color);
 	}
 	.navlist a:hover{
@@ -567,6 +576,13 @@ header.sticky{
 	}
 	.home-img img{
 		display: none;
+	}
+	.home-imge img
+	{
+		max-width: 100%;
+		width: 370px;
+		height: auto;
+		margin-top: 3rem;
 	}
 	.about{
 		display: grid;
